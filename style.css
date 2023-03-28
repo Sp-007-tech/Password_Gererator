@@ -1,17 +1,21 @@
-body{
+body
+{
     display: flex;
     align-items: center;
     justify-content: center;
     height: 100vh;
     background-color: rgb(0, 255, 255);
 }
-h2{
+
+h2
+{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-weight: 500;
     font-size: 3.5rem;
 }
 
-input{
+input
+{
     width: 80%;
     font-size: 2rem;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
@@ -22,7 +26,8 @@ input{
     color: grey;
 }
 
-#btn{
+#btn
+{
     width: 35%;
     font-size: 1rem;
     font-family: cursive;
@@ -37,7 +42,8 @@ input{
     transition: 0.5s ease;
 }
 
-#btn:hover{
+#btn:hover
+{
     background-color: red;
     color: white;
 
